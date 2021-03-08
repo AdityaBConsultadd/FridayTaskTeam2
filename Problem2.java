@@ -23,14 +23,12 @@ public class Problem2 {
                 if(arr[i] == arr[j]) {  
                     freq[i]++;  
                       
-                    //Set string[j] to 0 to avoid printing visited character  
+                  
                     arr[j] = '0';  
                 }  
             }  
         }  
-          
-        //Displays the each character and their corresponding frequency  
-        System.out.println("Characters and their corresponding frequencies");  
+           
         for(i = 0; i <freq.length; i++) {  
             if(arr[i] != ' ' && arr[i] != '0')  
                 System.out.println(arr[i] + "-" + freq[i]);  

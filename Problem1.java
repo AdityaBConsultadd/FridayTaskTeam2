@@ -10,7 +10,7 @@ public class Problem1 {
 	class Priyanka
 	{
 		void add() {
-				// TODO Auto-generated method stub
+		
 				String s1 ="123";
 				String s2 = "122";
 				int i,j;
